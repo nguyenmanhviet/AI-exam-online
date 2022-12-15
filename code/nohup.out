@@ -1,0 +1,55 @@
+INFO:     Started server process [7126]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [7126]
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=640x480 at 0x7F6D4071ECE0>
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=640x480 at 0x7F6D4071ED40>
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=640x480 at 0x7F6D40782020>
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=640x480 at 0x7F6D41765360>
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=640x480 at 0x7F6D40782020>
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=640x480 at 0x7F6D41765360>
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=640x480 at 0x7F6D40782020>
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=640x480 at 0x7F6D41765360>
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=640x480 at 0x7F6D407F7400>
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=640x480 at 0x7F6D407F74C0>
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=640x480 at 0x7F6D407F6A40>
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=640x480 at 0x7F6D407F6F20>
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=640x480 at 0x7F6D407F7610>
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=640x480 at 0x7F6D407F79A0>
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=640x480 at 0x7F6D407F69E0>
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=640x480 at 0x7F6D407F70A0>
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=640x480 at 0x7F6D407F6E60>
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=640x480 at 0x7F6D407F72B0>
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=640x480 at 0x7F6D407F6EC0>
+<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=640x480 at 0x7F6D407F72E0>
+file <class 'str'>
+face_image <class 'numpy.ndarray'>
+102180054
+file <class 'str'>
+face_image <class 'numpy.ndarray'>
+102180054
+file <class 'str'>
+face_image <class 'numpy.ndarray'>
+102180054
+file <class 'str'>
+face_image <class 'numpy.ndarray'>
+102180054
+file <class 'str'>
+face_image <class 'numpy.ndarray'>
+102180054
+file <class 'str'>
+face_image <class 'numpy.ndarray'>
+Traceback (most recent call last):
+  File "/home/ubuntu/AI_FACE_RECOGNITION/code/api.py", line 91, in <module>
+    face_encoding = face_recognition.face_encodings(face_image)[0]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/face_recognition/api.py", line 213, in face_encodings
+    raw_landmarks = _raw_face_landmarks(face_image, known_face_locations, model)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/face_recognition/api.py", line 156, in _raw_face_landmarks
+    face_locations = _raw_face_locations(face_image)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/face_recognition/api.py", line 105, in _raw_face_locations
+    return face_detector(img, number_of_times_to_upsample)
+KeyboardInterrupt
